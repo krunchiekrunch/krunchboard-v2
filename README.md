@@ -28,4 +28,4 @@ A custom 75% ISO mechanical keyboard powered by a Raspberry Pi Pico with KMK
 |-----|------------------------------------|-------------------------------------------|------------|---|
 
 
-![Blueprint Logo](https://blueprint.hackclub.com/favicon-32x32.png)
+![Blueprint Logo](https://hc-cdn.hel1.your-objectstorage.com/s/v3/f6803a08b5ffa2e1d8b41eab943eb833fc5355cf_stickers.png)
