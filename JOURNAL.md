@@ -21,3 +21,18 @@ This keyboard will be hotswappable so it will be plate mounted.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjQzLCJwdXIiOiJibG9iX2lkIn19--bf61c84763924de8997568509474f23f6394a475/image.png)
   
 
+## 10/5/2025 - Made the schematic  
+
+Today I completed the schematic. I decided to make the pico receive power and data via a external usb-c port so that I can put the pico under the space bar, on the back side to save space. The USB-C have 2 5.1k resistor to request 5v from a PD source, and there is reverse voltage protection just in case.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc0LCJwdXIiOiJibG9iX2lkIn19--08054b53750a03851fbb19d1876c1e98777cd4f6/image.png)
+
+Since the pico will be on the other side, I also added external RST and BOOTSEL buttons.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc1LCJwdXIiOiJibG9iX2lkIn19--147429535ea766a83b50af870efe47cff517a78e/image.png)
+
+I have 1 unused GPIO pin so maybe I can put some neopixels on the PCB.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc2LCJwdXIiOiJibG9iX2lkIn19--12cc990d07ce47bbaf715e1c030ad2d6719e208b/image.png)
+  
+
