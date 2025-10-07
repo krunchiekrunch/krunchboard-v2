@@ -36,3 +36,13 @@ I have 1 unused GPIO pin so maybe I can put some neopixels on the PCB.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc2LCJwdXIiOiJibG9iX2lkIn19--12cc990d07ce47bbaf715e1c030ad2d6719e208b/image.png)
   
 
+## 10/7/2025 - Wired the power and data  
+
+Today I started drawing the traces for power and data to the pico, since I am using a external USB-C port, I will need to use 2 5.1k resistor to request 5v from PD sources.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTgyLCJwdXIiOiJibG9iX2lkIn19--86805e73f5c46f4448ba436c057132dc287768e6/image.png)
+
+The data lines are a differential pairs, although I don't think it's necessary since the pico is only USB 1.1, which only supports up to 12 megabits/s.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTgzLCJwdXIiOiJibG9iX2lkIn19--35d44d64910e0a4af2c4af106cf149354deba028/image.png)  
+
