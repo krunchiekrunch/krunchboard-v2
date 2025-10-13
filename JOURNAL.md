@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **krunchboard v2**.  
+This is my journal of the design and building process of **krunchboard 75**.  
 You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/72).
 
 
@@ -36,7 +36,7 @@ I have 1 unused GPIO pin so maybe I can put some neopixels on the PCB.
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NTc2LCJwdXIiOiJibG9iX2lkIn19--12cc990d07ce47bbaf715e1c030ad2d6719e208b/image.png)
   
 
-## 10/7/2025 - Wired the power and data  
+## 10/8/2025 - Wired the power and data  
 
 Today I started drawing the traces for power and data to the pico, since I am using a external USB-C port, I will need to use 2 5.1k resistor to request 5v from PD sources.
 
@@ -45,4 +45,19 @@ Today I started drawing the traces for power and data to the pico, since I am us
 The data lines are a differential pairs, although I don't think it's necessary since the pico is only USB 1.1, which only supports up to 12 megabits/s.
 
 ![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTgzLCJwdXIiOiJibG9iX2lkIn19--35d44d64910e0a4af2c4af106cf149354deba028/image.png)  
+
+## 10/14/2025 - All the traces  
+
+Today I wired up all the rows and columns, this took a while because I tried to make the PCB as compact as possible, whilst keeping the traces neat looking.
+
+I rearranged the schematic to allow the column pins to enter the MCU efficiently.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjExMywicHVyIjoiYmxvYl9pZCJ9fQ==--e705b01602fd769c4f009707644c04bea7d47487/image.png)
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjExMiwicHVyIjoiYmxvYl9pZCJ9fQ==--ec8f59e334dde98240870cca04a6c991b3bf9092/image.png)
+
+I also moved the RST and BOOTSEL buttons under the space bar for easier access.
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjExNCwicHVyIjoiYmxvYl9pZCJ9fQ==--aacb61dd0e2b5b28a4c78d38bd9fe024383e94cf/image.png)
+  
 
